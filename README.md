@@ -1,10 +1,8 @@
 # CuentasYa
 
+**🌐 Languages / Idiomas:** [English](README.md) | [Español](README_ES.md)
+
 This repository contains all the user experience process behind the app 'CuentasYa', focused on the payment of bills for older adults. 
-
-**🌐 Idiomas / Languages:** [Español](README_ES.md) | [English](README.md)
-
-
 
 <img src="Documents/CuentasYa.jpg" alt="CuentasYa" style="width: 200px; height: auto;">
 

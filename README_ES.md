@@ -1,15 +1,9 @@
 # CuentasYa
 
+**🌐 Languages / Idiomas:** [English](README.md) | [Español](README_ES.md)
+
 Este repositorio contiene todo el proceso de experiencia de usuario detrás de la aplicación 'CuentasYa', enfocada en el pago de cuentas para adultos mayores.
 
-**🌐 Idiomas / Languages:** [Español](README_ES.md) | [English](README.md)
-
-El equipo del proyecto está formado por:
-* Javier Alcalde
-* Joaquín Faúndez
-* Diego Labrín
-* Sebastián Llanos
-* Jesús Tapia
 
 <img src="Documents/CuentasYa.jpg" alt="CuentasYa" style="width: 200px; height: auto;">
 
