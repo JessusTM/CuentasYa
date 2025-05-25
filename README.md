@@ -9,7 +9,7 @@ The team of the project is form by:
 * Sebastían Llanos
 * Jesús Tapia
 
-![CuentasYa](Documents/CuentasYa.jpeg)
+![CuentasYa](Documents/CuentasYa.png)
 
 --- 
 ### Index 
