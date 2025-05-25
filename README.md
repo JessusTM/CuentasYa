@@ -9,6 +9,8 @@ The team of the project is form by:
 * Sebastían Llanos
 * Jesús Tapia
 
+![CuentasYa](Documents/CuentasYa.jpeg)
+
 --- 
 ### Index 
 
@@ -60,17 +62,19 @@ _"Strategy becomes scope when you translate user needs and product objectives in
 
 In the scope plane, to understand what we are building, we study the competitors present in the market, identifing their best features and what makes them good, and their worst features to not replicate them.
 
-Materialized the **Persona Canvas**, we built a **Custormer Journey Map**, a tool that let us understand how our users are going to feel using the system, given the interaction between user and app.
-
-> A **Customer Journey Map** is a visual representation of every experience that a customer has with a brand, product or service. Ideally, a customer journey map captures the customer experience from the consumer perspective, visualizing the touchpoints, emotions and potential pain points they encounter during their relationship with a brand. (Hayes & Downie, 2024)
-
-Additionally, based in this information, we develop a benchmarking that comparates the most famous competitors with similar funcionalities and our solution.
+To do this, based in the information recopilated in the **strategy plane**, we develop a benchmarking that comparates the most famous competitors and their funcionalities, selecting the best funcionalities that can match with the problems that we try to solve, adding others that can work and help in our domain problem.
 
 > Benchmarking is defined as the process of measuring products, services, and processes against those of organizations known to be leaders in one or more aspects of their operations. (American Society for Quality, n.d.)
 
 ![Benchmark general](Documents/Benchmark/Benchmarking.png)
 
 To more details about the benchmarking go to: https://github.com/JessusTM/CuentasYa/tree/main/Documents/Benchmark
+
+Materialized the **Persona Canvas**, and defined the funcionalities of the project, we mix this two tools to built a **Custormer Journey Map**, a tool that let us understand how our users are going to feel using the system, given the interaction between user and app.
+
+> A **Customer Journey Map** is a visual representation of every experience that a customer has with a brand, product or service. Ideally, a customer journey map captures the customer experience from the consumer perspective, visualizing the touchpoints, emotions and potential pain points they encounter during their relationship with a brand. (Hayes & Downie, 2024)
+
+![CJM](Documents/CJM.jpg)
 
 ### 4. Structure Plane 
 
