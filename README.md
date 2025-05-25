@@ -34,9 +34,9 @@ In this context, even with this new facilities, there are still people who avoid
 
 ##### 1.2 Solution  
 
-With our project, named 'CuentasYa' inspired by the issue found, we aim to build a solution focus in our senior citizens, a platform where they can centralized all their bills and cards, avoiding the need to travel physically to the banks. 
+With our project, named 'CuentasYa' inspired by the issue found, we aim to build a solution focused on our senior citizens, a platform where they can centralized all their bills and cards, avoiding the need to travel physically to the banks. 
 
-The plaftform will be able to indicate inside the app and with notifications and alarms, all the unpaid bills. Furthermore, the main feature is the payment of bills, whether it is full digital or generating a centralized ticket that can be used in the bank. 
+The platform will be able to indicate inside the app and with notifications and alarms, all the unpaid bills. Furthermore, the main feature is the payment of bills, whether it is full digital or generating a centralized ticket that can be used in the bank. 
 
 
 ---
@@ -49,7 +49,7 @@ The team is composed by 5 members, each one with a specific role in the project.
 | Sebastián Llanos | Analyst                   | Responsible for analyzing user requirements, evaluating data, and translating business needs into technical specifications. |
 | Javier Alcalde   | UX Designer               | Responsible for creating user interfaces, user flows, and ensuring a positive user experience throughout the application. |
 | Diego Labrín     | Supporter                 | Responsible for providing technical assistance, troubleshooting issues, and supporting the team with various project tasks. |
-| Jesús Tapia      | Expositer                 | Responsible for presenting the project and communicating its value to stakeholders. |
+| Jesús Tapia      | Presenter                 | Responsible for presenting the project and communicating its value to stakeholders. |
 
 ---
 ### 3. UX Design Process
@@ -86,7 +86,7 @@ To do this, based in the information recopilated in the **strategy plane**, we d
 
 For more detailed information about the benchmarking analysis and competitor comparison, please visit the [Benchmark folder](Documents/Benchmark) in this repository.
 
-Materialized the **Persona Canvas**, and defined the funcionalities of the project, we mix this two tools to built a **Custormer Journey Map**, a tool that let us understand how our users are going to feel using the system, given the interaction between user and app.
+Materialized the **Persona Canvas**, and defined the funcionalities of the project, we mix this two tools to built a **Customer Journey Map**, a tool that let us understand how our users are going to feel using the system, given the interaction between user and app.
 
 > A **Customer Journey Map** is a visual representation of every experience that a customer has with a brand, product or service. Ideally, a customer journey map captures the customer experience from the consumer perspective, visualizing the touchpoints, emotions and potential pain points they encounter during their relationship with a brand. (Hayes & Downie, 2024)
 
