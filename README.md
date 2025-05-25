@@ -112,10 +112,10 @@ In our applications, based on the functionalities defined in the **Sitemap**, we
 > A **wireframe** is a top-level blueprint that illustrates the structure of your website, app, or project. It doesn’t include any designs or a great deal of detail. It simply maps the structure and the key elements. (Miro, 2025).
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-   <img src="Documents/Wireframes/Wireframe-01.jpg" alt="Wireframe 1" style="width: 22%; height: auto;">
-   <img src="Documents/Wireframes/Wireframe-08.jpg" alt="Wireframe 2" style="width: 22%; height: auto;">
-   <img src="Documents/Wireframes/Wireframe-09.jpg" alt="Wireframe 3" style="width: 22%; height: auto;">
-   <img src="Documents/Wireframes/Wireframe-22.jpg" alt="Wireframe 4" style="width: 22%; height: auto;">
+   <img src="Documents/Wireframes/wireframe-01.jpg" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="Documents/Wireframes/wireframe-08.jpg" alt="Wireframe 2" style="width: 22%; height: auto;">
+   <img src="Documents/Wireframes/wireframe-09.jpg" alt="Wireframe 3" style="width: 22%; height: auto;">
+   <img src="Documents/Wireframes/wireframe-22.jpg" alt="Wireframe 4" style="width: 22%; height: auto;">
 </div>
 
 To see all the wireframes, due to the high number of images, go directly to the [Wireframes folder](/Documents/Wireframes).
