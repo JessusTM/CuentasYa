@@ -114,13 +114,13 @@ En nuestras aplicaciones, basándonos en las funcionalidades definidas en el **M
    <img src="Documents/Wireframes/wireframe-22.jpg" alt="Wireframe 22" style="width: 22%; height: auto;">
 </div>
 
-Para ver todos los wireframes, debido al alto número de imágenes, ve directamente a la [carpeta Wireframes](/Documents/Wireframes).
+Para ver todos los wireframes, debido al alto número de imágenes, ve directamente a la [carpeta con los Wireframes Lo-Fi](/Documents/Wireframes).
 
 #### 3.5. Plano de Superficie
 
 _"El plano de superficie es la parte más visible de la experiencia del usuario. Es lo que los usuarios ven e interactúan. El plano de superficie es donde entra en juego el diseño visual."_ (Garrett, 2011)
 
-![Plano de Superficie](Documents/Mockups)
+[Carpeta con los wireframes Hi-Fi (Plano de Superficie)](Documents/Mockups)
 
 ---
 ### 4. Referencias

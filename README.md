@@ -116,13 +116,13 @@ In our applications, based on the functionalities defined in the **Sitemap**, we
    <img src="Documents/Wireframes/wireframe-22.jpg" alt="Wireframe 4" style="width: 22%; height: auto;">
 </div>
 
-To see all the wireframes, due to the high number of images, go directly to the [Wireframes folder](/Documents/Wireframes).
+To see all the wireframes, due to the high number of images, go directly to the [Wireframes Lo-Fi folder](/Documents/Wireframes).
 
 #### 3.5. Surface Plane
 
 _"The surface plane is the most visible part of the user experience. It’s what users see and interact with. The surface plane is where the visual design comes into play."_ (Garrett, 2011)
 
-![Surface Plane](Documents/Mockups)
+[Hi-fi Wireframes (Surface Plane folder)](Documents/Mockups)
 
 ---
 ### 4. References
