@@ -122,7 +122,15 @@ To see all the wireframes, due to the high number of images, go directly to the 
 
 _"The surface plane is the most visible part of the user experience. It’s what users see and interact with. The surface plane is where the visual design comes into play."_ (Garrett, 2011)
 
-[Hi-fi Wireframes (Surface Plane folder)](Documents/Mockups)
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="Documents/Mockups/mockup-01.png" alt="Mockup 1" style="width: 22%; height: auto;">
+   <img src="Documents/Mockups/mockup-08.png" alt="Mockup 8" style="width: 22%; height: auto;">
+   <img src="Documents/Mockups/mockup-09.png" alt="Mockup 9" style="width: 22%; height: auto;">
+   <img src="Documents/Mockups/mockup-22.png" alt="Mockup 22" style="width: 22%; height: auto;">
+</div>
+
+To see all the wireframes, due to the high number of images, go directly to the [Hi-fi Wireframes (Mockups folder)](Documents/Mockups) or to the [figma link](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1)
 
 ---
 ### 4. References
