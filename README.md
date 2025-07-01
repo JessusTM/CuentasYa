@@ -100,7 +100,7 @@ In the context of our application, we used the tool known as a Sitemap, to under
 
 > A sitemap is a file that shows the structure of your website, including its pages and content. And the relationships between them. (Pavlik, 2024)
 
-![Sitemap](Documents/Sitemap.png)
+![Sitemap](Documents/Sitemaps/Sitemap-EN.jpeg)
 
 #### 3.4. Skeleton Plane 
 _"Defines what form that functionality will take. In addition to addressing more concrete issues of presentation, the skeleton plane deals with matters that involve a more refined level of detail"_ (Garrett, 2011)
@@ -121,16 +121,11 @@ To see all the wireframes, due to the high number of images, go directly to the 
 #### 3.5. Surface Plane
 
 _"The surface plane is the most visible part of the user experience. It’s what users see and interact with. The surface plane is where the visual design comes into play."_ (Garrett, 2011)
+/div>
 
+To see all the images of the mockups, due to the high number of images, go directly to the [Hi-fi Wireframes (Mockups folder)](Documents/Mockups) or to the [figma link](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
 
-<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-   <img src="Documents/Mockups/mockup-01.png" alt="Mockup 1" style="width: 22%; height: auto;">
-   <img src="Documents/Mockups/mockup-08.png" alt="Mockup 8" style="width: 22%; height: auto;">
-   <img src="Documents/Mockups/mockup-09.png" alt="Mockup 9" style="width: 22%; height: auto;">
-   <img src="Documents/Mockups/mockup-22.png" alt="Mockup 22" style="width: 22%; height: auto;">
-</div>
-
-To see all the wireframes, due to the high number of images, go directly to the [Hi-fi Wireframes (Mockups folder)](Documents/Mockups) or to the [figma link](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1)
+If you want a detail explanation of each mockup group by their functionalities, go to the next [Link](./Documents/Mockups/Explanation-EN/01.Register-Login.md).
 
 ---
 ### 4. References

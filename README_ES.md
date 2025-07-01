@@ -98,7 +98,7 @@ En el contexto de nuestra aplicación, utilizamos la herramienta conocida como M
 
 > Un mapa del sitio es un archivo que muestra la estructura de tu sitio web, incluyendo sus páginas y contenido. Y las relaciones entre ellas. (Pavlik, 2024)
 
-![Sitemap](Documents/Sitemap.png)
+![Sitemap](Documents/Sitemaps/Sitemap-ES.jpeg)
 
 #### 3.4. Plano de Esqueleto 
 _"Define qué forma tomará esa funcionalidad. Además de abordar problemas más concretos de presentación, el plano de esqueleto trata asuntos que involucran un nivel más refinado de detalle"_ (Garrett, 2011)
@@ -120,16 +120,10 @@ Para ver todos los wireframes, debido al alto número de imágenes, ir directame
 
 _"El plano de superficie es la parte más visible de la experiencia del usuario. Es lo que los usuarios ven e interactúan. El plano de superficie es donde entra en juego el diseño visual."_ (Garrett, 2011)
 
+Para ver todos las imagenes de los Mockups, debido al alto número de imágenes, ir directamente a la
+[carpeta con los wireframes Hi-Fi (Mockups)](Documents/Mockups) o al link hacia [figma](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
 
-<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-   <img src="Documents/Mockups/mockup-01.png" alt="Mockup 1" style="width: 22%; height: auto;">
-   <img src="Documents/Mockups/mockup-08.png" alt="Mockup 8" style="width: 22%; height: auto;">
-   <img src="Documents/Mockups/mockup-09.png" alt="Mockup 9" style="width: 22%; height: auto;">
-   <img src="Documents/Mockups/mockup-22.png" alt="Mockup 22" style="width: 22%; height: auto;">
-</div>
-
-Para ver todos los wireframes Hi-Fi, debido al alto número de imágenes, ir directamente a la
-[carpeta con los wireframes Hi-Fi (Mockups)](Documents/Mockups) o al link hacia [figma](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1)
+Si desea un explicación detallada de los Mockups agrupados por funcionalidades, ir al siguiente [Link](./Documents/Mockups/Explanation-ES/01.Registro-Inicio.md). 
 
 ---
 ### 4. Referencias
