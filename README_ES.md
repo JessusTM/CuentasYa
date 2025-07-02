@@ -20,7 +20,8 @@ Este repositorio contiene todo el proceso de experiencia de usuario detrás de l
    - [3.3 Plano de Estructura](#33-plano-de-estructura)
    - [3.4 Plano de Esqueleto](#34-plano-de-esqueleto)
    - [3.5 Plano de Superficie](#35-plano-de-superficie)
-4. [Referencias](#4-referencias)
+4. [Resultados Evaluación Heurística](#4-resultados-evaluación-heurística)
+5. [Referencias](#5-referencias)
 
 --- 
 ### 1. Introducción 
@@ -125,8 +126,50 @@ Para ver todos las imagenes de los Mockups, debido al alto número de imágenes,
 
 Si desea un explicación detallada de los Mockups agrupados por funcionalidades, ir al siguiente [Link](./Documents/Mockups/Explanation-ES/01.Registro-Inicio.md). 
 
+--- 
+### 4. Resultados Evaluación Heurística 
+
+Considerando la evaluación heurística hecha por otro grupo, el equipo de CuentasYA utilizó los problemas encontrados por el equipo externo para robustecer la aplicación.
+
+##### 4.1 Problemas 
+* En el dashboard principal, la sección de «Estado de Servicios» no es intuitiva, ya que los servicios sin pagar muestran valores, mientrás que los servicios ya pagados aparecen tachados, lo cual puede ser confuso.
+* La pantalla de resumen debería incluír un botón de pago, que permita a los usuarios pagar sus cuentas usando el saldo en su cuenta digital u otro método.
+* Interfaz de usuario confusa en la funcionalidad de Scan, porque la vista sugiere que la cuenta debe encajar exactamente, lo cual puede generar errores.
+* Es confuso como se agrega dinero a la billetera, ya que solo permite agregar tarjetas.
+* La interfaz de usuario no específica como las cuentas son mostradas.
+
+##### 4.2 Solución 
+* Ahora, los estados de los servicios en la esquina superior derecha y el color de los precios muestran un determinado color para cada estado:
+  * Rojo para cuentas sin pagar 
+  * Amarillo para cuentas pendientes 
+  * Verde para cuentas pagadas 
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Wireframe 1" style="width: 75%; height: auto;">
+</div>
+
+* Ahora, la aplicación muestra la vista de resumen con un botón que lleva a la siguiente vista, donde el usuario puede seleccionar si desea pagar inmediatamente o hacerlo más tarde.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-30.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-31.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
+
+* Ahora, el scan no muestra limitadores en la pantalla, aprovechando las capacidades de la IA para analizar la imagen.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-24.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+</div>
+
+* Ahora, en el dashboard principal hay un botón grande que permite al usuario agregar dinero a su billetera digital. Adicionalmente, la billetera digital tiene otra vista para agregar dinero. 
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-10.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-11.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-12.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
 ---
-### 4. Referencias
+### 5. Referencias
 
 - Garrett, J. J. (2011). The Elements of User Experience: User-Centered Design for the Web and Beyond. New Riders.
 - B2B International. (2025). Value Proposition Canvas. Recuperado de https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/

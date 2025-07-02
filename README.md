@@ -19,7 +19,8 @@ This repository contains all the user experience process behind the app 'Cuentas
    - [3.3 Structure Plane](#33-structure-plane)
    - [3.4 Skeleton Plane](#34-skeleton-plane)
    - [3.5 Surface Plane](#35-surface-plane)
-4. [References](#4-references)
+4. [Heuristic Evaluation Results](#4-heuristic-evaluation-results) 
+5. [References](#5-references)
 
 --- 
 ### 1. Introduction 
@@ -127,8 +128,51 @@ To see all the images of the mockups, due to the high number of images, go direc
 
 If you want a detail explanation of each mockup group by their functionalities, go to the next [Link](./Documents/Mockups/Explanation-EN/01.Register-Login.md).
 
+--- 
+### 4. Heuristic Evaluation Results 
+
+Considering the heuristic evaluation made by another team, the CuentasYa team used the problems found by this external team to strengthen the application.
+
+##### 4.1 Problems 
+* In the main dashboard, the section «State of Services» is not intuitive, services unpaid show values, while paid services appear crossed out, which can be confusing.
+* The summary screen should include a pay button, to allow the users to pay their debt using the app digital wallet or another method.
+* Confusing UI in the scan functionality, because the view suggests the bill must fit exactly, which may generate errors.
+* It is unclear how to add money to the wallet, because only allow to add cards.
+* The UI doesn't specify how bills are displayed, causing confusion about whether they are current charges or previously added services.
+
+##### 4.2 Solution 
+* Now, the states of the services in the upper right corner and the color of the price shown a determined color for each state:
+  * Red for unpaid bills 
+  * Yellow for pending bills 
+  * Green por paid bills
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Wireframe 1" style="width: 75%; height: auto;">
+</div>
+
+* Now, the application shows the summary view with a button to go next to the view, where the app asks the user if this want to pay immediately or do it later.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-30.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-31.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
+
+* Now, the scan doesn't show limiters on the screen, leverage the capabilities of the AI to analyze the image.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-24.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+</div>
+
+* Now, in the main dashboard is a big button that allows the user add money to the digital wallet. Additionally, the digital wallet has another view to add money.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-10.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-11.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-12.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
+ 
 ---
-### 4. References
+### 5. References
 
 - Garrett, J. J. (2011). The Elements of User Experience: User-Centered Design for the Web and Beyond. New Riders.
 - B2B International. (2025). Value Proposition Canvas. Retrieved from https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/
