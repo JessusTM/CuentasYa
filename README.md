@@ -12,13 +12,22 @@ This repository contains all the user experience process behind the app 'Cuentas
 1. [Introduction](#1-introduction)
    - [1.1 Problem Statement](#11-problem-statement)
    - [1.2 Solution](#12-solution)
+   - [1.3 Changes](#13-changes)
 2. [Team and Roles](#2-team-and-roles)
 3. [UX Design Process](#3-ux-design-process)
    - [3.1 Strategy Plane](#31-strategy-plane)
+      - [3.1.1 Value Proposition Canvas](#311-value-proposition-canvas)
+      - [3.1.2 Canvas Persona](#312-canvas-persona)
    - [3.2 Scope Plane](#32-scope-plane)
+      - [3.2.1 Benchmark](#321-benchmark)
+      - [3.2.2 Customer Journey Map](#322-customer-journey-map)
    - [3.3 Structure Plane](#33-structure-plane)
+      - [3.3.1 Sitemap](#331-sitemap)
    - [3.4 Skeleton Plane](#34-skeleton-plane)
+      - [3.4.1 Wireframes](#341-wireframes)
    - [3.5 Surface Plane](#35-surface-plane)
+      - [3.5.1 Mockups](#351-mockups)
+      - [3.5.2 Explanation](#352-explanation)
 4. [Heuristic Evaluation Results](#4-heuristic-evaluation-results) 
 5. [References](#5-references)
 
@@ -39,6 +48,14 @@ With our project, named 'CuentasYa' inspired by the issue found, we aim to build
 
 The platform will be able to indicate inside the app and with notifications and alarms, all the unpaid bills. Furthermore, the main feature is the payment of bills, whether it is full digital or generating a centralized ticket that can be used in the bank. 
 
+##### 1.3 Changes 
+
+Based on the feedback given by other groups, professor and teaching assistants, the changes made to this new version of the project are:
+* Add solutions to the observations given by other teams after the first presentation.
+* Update the [Sitemap](#331-sitemap) with all the current flows of the application.
+* Add final [Mockups](./Documents/Mockups/Images/).
+* Add an [Explanation for the Mockups](#351-mockups-explanation), grouping them into functionalities to understand the flow off the application and how these work together.
+* Add [Heuristic Evaluation Results](#4-heuristic-evaluation-results) made by another group with an explanation of how these were resolved.
 
 ---
 ### 2. Team and Roles
@@ -55,16 +72,18 @@ The team is composed by 5 members, each one with a specific role in the project.
 ---
 ### 3. UX Design Process
 
-#### 3.1. Strategy Plane
+##### 3.1. Strategy Plane
 
 _"Together, product objectives and user needs form the strategy plane, the foundation for every decision in our process as we design the user experience."_ (Garrett, 2011)
 
+###### 3.1.1 Value Proposition Canvas
 In our context, to understand what we want to achieve with this application, and what of users want and expect of our app, we used the tools named as **Value Proposition Canvas** and **Persona Canvas**.
 
 > The **Value Proposition Canvas** was a framework to ensure that there is a fit between the product and market. It is a detailed tool for modeling the relationship between two parts: customer segments and value propositions. (B2B International, 2025)
 
 ![Value Proposition Canvas](Documents/Value%20Proposition%20Canvas.png)
 
+###### 3.1.2 Canvas Persona
 Additionally, to understand who are our segment of users, we used the tool named as **Persona Canvas**, to understand who are the persons to which the application is intended.
 
 > The **Persona Canvas** is a tool that allow collect data about our users segment, making this group of fragmented data, a character that represent the needs of a segment group, generating that users be more real and not unknown.
@@ -73,13 +92,14 @@ Additionally, to understand who are our segment of users, we used the tool named
 ![Persona 2](Documents/Personas/UX-Persona-Tereza.png)
 ![Persona 3](Documents/Personas/UX-Persona-Carmen.png)
 
-#### 3.2. Scope Plane
+##### 3.2. Scope Plane
 
 _"Strategy becomes scope when you translate user needs and product objectives into specific requirements for what content and functionality the product will offer to users."_ (Garrett, 2011)
 
-In the scope plane, to understand what we are building, we study the competitors present in the market, identifing their best features and what makes them good, and their worst features to not replicate them.
+In the scope plane, to understand what we are building, we study the competitors present in the market, identifying their best features and what makes them good, and their worst features to not replicate them.
 
-To do this, based in the information recopilated in the **strategy plane**, we develop a benchmarking that comparates the most famous competitors and their funcionalities, selecting the best funcionalities that can match with the problems that we try to solve, adding others that can work and help in our domain problem.
+###### 3.2.1 Benchmark
+To do this, based in the information collected in the **strategy plane**, we develop a benchmarking that compare the most famous competitors and their functionalities, selecting the best functionalities that can match with the problems that we try to solve, adding others that can work and help in our domain problem.
 
 > Benchmarking is defined as the process of measuring products, services, and processes against those of organizations known to be leaders in one or more aspects of their operations. (American Society for Quality, n.d.)
 
@@ -87,25 +107,29 @@ To do this, based in the information recopilated in the **strategy plane**, we d
 
 For more detailed information about the benchmarking analysis and competitor comparison, please visit the [Benchmark folder](Documents/Benchmark) in this repository.
 
-Materialized the **Persona Canvas**, and defined the funcionalities of the project, we mix this two tools to built a **Customer Journey Map**, a tool that let us understand how our users are going to feel using the system, given the interaction between user and app.
+###### 3.2.2 Customer Journey Map 
+Materialized the **Persona Canvas**, and defined the functionalities of the project, we mix this two tools to built a **Customer Journey Map**, a tool that let us understand how our users are going to feel using the system, given the interaction between user and app.
 
 > A **Customer Journey Map** is a visual representation of every experience that a customer has with a brand, product or service. Ideally, a customer journey map captures the customer experience from the consumer perspective, visualizing the touchpoints, emotions and potential pain points they encounter during their relationship with a brand. (Hayes & Downie, 2024)
 
 ![CJM](Documents/CJM.jpg)
 
-#### 3.3. Structure Plane 
+##### 3.3. Structure Plane 
 
 _"The requirements, however, don’t describe how the pieces fit together to form a cohesive whole. This is the next level up from scope: developing a conceptual structure for the site."_ (Garrett, 2011)
 
+###### 3.3.1 Sitemap
 In the context of our application, we used the tool known as a Sitemap, to understand the logical flow of the system through the functionalities that the system will respond to each user interaction. 
 
 > A sitemap is a file that shows the structure of your website, including its pages and content. And the relationships between them. (Pavlik, 2024)
 
 ![Sitemap](Documents/Sitemaps/Sitemap-EN.jpeg)
 
-#### 3.4. Skeleton Plane 
+##### 3.4. Skeleton Plane 
+
 _"Defines what form that functionality will take. In addition to addressing more concrete issues of presentation, the skeleton plane deals with matters that involve a more refined level of detail"_ (Garrett, 2011)
 
+###### 3.4.1 Wireframes 
 In our applications, based on the functionalities defined in the **Sitemap**, we create views for the application using wireframes.
 
 > A **wireframe** is a top-level blueprint that illustrates the structure of your website, app, or project. It doesn’t include any designs or a great deal of detail. It simply maps the structure and the key elements. (Miro, 2025).
@@ -119,21 +143,29 @@ In our applications, based on the functionalities defined in the **Sitemap**, we
 
 To see all the wireframes, due to the high number of images, go directly to the [Wireframes Lo-Fi folder](/Documents/Wireframes).
 
-#### 3.5. Surface Plane
+##### 3.5. Surface Plane
 
 _"The surface plane is the most visible part of the user experience. It’s what users see and interact with. The surface plane is where the visual design comes into play."_ (Garrett, 2011)
-/div>
 
+###### 3.5.1 Mockups 
 To see all the images of the mockups, due to the high number of images, go directly to the [Hi-fi Wireframes (Mockups folder)](Documents/Mockups) or to the [figma link](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
 
-If you want a detail explanation of each mockup group by their functionalities, go to the next [Link](./Documents/Mockups/Explanation-EN/01.Register-Login.md).
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+  <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Wireframe 1" style="width: 75%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-23.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-32.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+</div>
+
+###### 3.5.2 Explanation 
+If you want an explanation about the mockups grouped by their functionalities, go to the next [Link](./Documents/Mockups/Explanation-EN/01.Register-Login.md), where you will find the explanation based on the application flow.
 
 --- 
 ### 4. Heuristic Evaluation Results 
 
-Considering the heuristic evaluation made by another team, the CuentasYa team used the problems found by this external team to strengthen the application.
+Considering the heuristic evaluation made by another team, the 'CuentasYa' team used the problems found by this external team to strengthen the application.
 
-##### 4.1 Problems 
+##### 4.1 Problems
+
 * In the main dashboard, the section «State of Services» is not intuitive, services unpaid show values, while paid services appear crossed out, which can be confusing.
 * The summary screen should include a pay button, to allow the users to pay their debt using the app digital wallet or another method.
 * Confusing UI in the scan functionality, because the view suggests the bill must fit exactly, which may generate errors.
@@ -141,10 +173,11 @@ Considering the heuristic evaluation made by another team, the CuentasYa team us
 * The UI doesn't specify how bills are displayed, causing confusion about whether they are current charges or previously added services.
 
 ##### 4.2 Solution 
+
 * Now, the states of the services in the upper right corner and the color of the price shown a determined color for each state:
   * Red for unpaid bills 
   * Yellow for pending bills 
-  * Green por paid bills
+  * Green for paid bills
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
    <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Wireframe 1" style="width: 75%; height: auto;">
@@ -180,9 +213,4 @@ Considering the heuristic evaluation made by another team, the CuentasYa team us
 - Hayes, M., & Downie, A. (2024, October 11). Customer journey map. Retrieved from https://www.ibm.com/think/topics/customer-journey-map
 - Pavlik, V., Shirlow, C., & Mustapic, B. (2024). What Is a Sitemap? Website Sitemaps Explained. Semrush Blog. Retrieved from https://www.semrush.com/blog/website-sitemap
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, May 25). Retrieved from https://miro.com/wireframe/what-is-a-wireframe
-
 - Figma repository: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1 
-
----
-
-
