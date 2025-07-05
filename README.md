@@ -28,7 +28,8 @@ This repository contains all the user experience process behind the app 'Cuentas
    - [3.5 Surface Plane](#35-surface-plane)
       - [3.5.1 Mockups](#351-mockups)
       - [3.5.2 Explanation](#352-explanation)
-4. [Heuristic Evaluation Results](#4-heuristic-evaluation-results) 
+4. [Heuristic Evaluation Results](#4-heuristic-evaluation-results)
+5. [Accessibility]()
 5. [References](#5-references)
 
 --- 
@@ -205,12 +206,33 @@ Considering the heuristic evaluation made by another team, the 'CuentasYa' team 
 </div>
  
 ---
-### 5. References
+### 5. Accessibility
+Considering the accessibility, in the UX context, as the design and development of software usable for everyone, including those with disabilities such as visual or motor skills, since the entire CuentasYa project has as the main focus older adults, a group that in 2024 reaches 14% of the total population in Chile (Instituto Nacional de Estadísticas, 2025), and have in 2020 a 38.3% of functional dependency due to chronic diseases (Leiva et al., 2020), makes accessibility a pillar of the project, where the usability increases.
 
-- Garrett, J. J. (2011). The Elements of User Experience: User-Centered Design for the Web and Beyond. New Riders.
+The 'CuentasYa' application it's designed to be simple, but aesthetic, so that every user can use the app without effort, eliminating any hard search by the user by not having interfaces overload with details, adding value to the application by not present unnecessary complexity.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+  <img src="./Documents/Mockups/Images/CuentasYA-08.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-10.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-32.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-36.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
+
+As a main functionality, the 'CuentasYa' application has an intelligent agent to help the user to resolve their questions and concerns, which is built in a way that works like a natural conversation where the agent understand the context of the person via the data obtained through the chat, to help the user until he is satisfied.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-21.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-22.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
+
+---
+### 6. References
+- Garrett, J. J. (2011). The Elements of User Experience: User-Centered Design for thed Web and Beyond. New Riders.
 - B2B International. (2025). Value Proposition Canvas. Retrieved from https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/
 - American Society for Quality. (n.d.). Benchmarking. Retrieved from https://asq.org/quality-resources/benchmarking
 - Hayes, M., & Downie, A. (2024, October 11). Customer journey map. Retrieved from https://www.ibm.com/think/topics/customer-journey-map
 - Pavlik, V., Shirlow, C., & Mustapic, B. (2024). What Is a Sitemap? Website Sitemaps Explained. Semrush Blog. Retrieved from https://www.semrush.com/blog/website-sitemap
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, May 25). Retrieved from https://miro.com/wireframe/what-is-a-wireframe
 - Figma repository: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1 
+* Instituto Nacional de Estadísticas. (2025, 27 de marzo). Primeros resultados del Censo 2024: 18 480 432 personas fueron censadas en Chile, manteniéndose la tendencia de envejecimiento de la población. INE. Retrieved from https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2025/03/27/primeros-resultados-del-censo-2024-18.480.432-personas-fueron-censadas-en-chile-manteni%C3%A9ndose-la-tendencia-de-envejecimiento-de-la-poblaci%C3%B3n
+* Leiva, A. M., Vásquez, I., González, J., & Muñoz, L. (2020). Personas mayores en Chile: un desafío pendiente. Revista Médica de Chile, 148. Retrieved from https://www.revistamedicadechile.cl/index.php/rmedica/article/view/7695/5978

@@ -204,8 +204,28 @@ Considerando la evaluación heurística hecha por otro grupo, el equipo de Cuent
    <img src="./Documents/Mockups/Images/CuentasYA-12.png" alt="Wireframe 0" style="width: 22%; height: auto;">
 </div>
 
+--- 
+### 5. Accesibilidad
+Considerando la accebilidad, en el contexto de UX, como el diseño y desarrollo de software usable por todos, incluyendo a aquellas personas con discapacidades, ya que el projecto «CuentasYa» tiene como punto principal los adultos mayores, un grupo que para el 2024 alcanzó el 14% de la población total en Chile (Instituto Nacional de Estadísticas, 2025), y que el 38.8% en el 2020 presentaba alguna dependencia funcional debido a enfermedades crónicas (Leiva et al., 2020), hace la accesibilidad un pilar del proyecto, donde la usabilidad incrementa. 
+
+La aplicación «CuentasYa» se encuentra diseñado para ser simple, pero estético, de manera que cada usuario pueda utilizar la aplicación sin esfuerzo, eliminando cualquier búsqueda compleja para el usuario al no tener interfaces sobrecargadas de detalles, añadiendo valor a la aplicación al no agregar complejidad innecesaria.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+<img src="./Documents/Mockups/Images/CuentasYA-08.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+<img src="./Documents/Mockups/Images/CuentasYA-10.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+<img src="./Documents/Mockups/Images/CuentasYA-32.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-36.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
+
+Como una funcionalidad principal, la aplicación de «CuentasYa» tiene un agente inteligente para ayudar a resolver cualquier pregunta o preocupación del usuario, el cual está construido de forma que funcione como una conversación natural, donde el agente entienda el contexto de la persona por medio de la información obtenida en la conversación, para ayudar al usuario hasta que este se encuentre satisfecho.
+
+<div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
+   <img src="./Documents/Mockups/Images/CuentasYA-21.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-22.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+</div>
+
 ---
-### 5. Referencias
+### 6. Referencias
 
 - Garrett, J. J. (2011). The Elements of User Experience: User-Centered Design for the Web and Beyond. New Riders.
 - B2B International. (2025). Value Proposition Canvas. Recuperado de https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/
@@ -214,4 +234,5 @@ Considerando la evaluación heurística hecha por otro grupo, el equipo de Cuent
 - Pavlik, V., Shirlow, C., & Mustapic, B. (2024). What Is a Sitemap? Website Sitemaps Explained. Semrush Blog. Recuperado de https://www.semrush.com/blog/website-sitemap
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, 25 de mayo). Recuperado de https://miro.com/wireframe/what-is-a-wireframe
 - Link Repositorio de Figma: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
-
+* Instituto Nacional de Estadísticas. (2025, 27 de marzo). Primeros resultados del Censo 2024: 18 480 432 personas fueron censadas en Chile, manteniéndose la tendencia de envejecimiento de la población. INE. Retrieved from https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2025/03/27/primeros-resultados-del-censo-2024-18.480.432-personas-fueron-censadas-en-chile-manteni%C3%A9ndose-la-tendencia-de-envejecimiento-de-la-poblaci%C3%B3n
+* Leiva, A. M., Vásquez, I., González, J., & Muñoz, L. (2020). Personas mayores en Chile: un desafío pendiente. Revista Médica de Chile, 148. Retrieved from https://www.revistamedicadechile.cl/index.php/rmedica/article/view/7695/5978
