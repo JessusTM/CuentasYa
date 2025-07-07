@@ -1,14 +1,14 @@
+
 # CuentasYa
 
 **🌐 Languages / Idiomas:** [English](README.md) | [Español](README_ES.md)
 
 Este repositorio contiene todo el proceso de experiencia de usuario detrás de la aplicación 'CuentasYa', enfocada en el pago de cuentas para adultos mayores.
 
-
 <img src="Documents/CuentasYa.jpg" alt="CuentasYa" style="width: 200px; height: auto;">
 
---- 
-### Índice 
+---
+### Índice
 
 1. [Introducción](#1-introducción)
    - [1.1 Problemática](#11-problemática)
@@ -23,39 +23,45 @@ Este repositorio contiene todo el proceso de experiencia de usuario detrás de l
       - [3.2.1 Benchmark](#321-benchmark)
       - [3.2.2 Mapa de Viaje del Cliente](#322-mapa-de-viaje-del-cliente)
    - [3.3 Plano de Estructura](#33-plano-de-estructura)
-      - [3.3.1 Mapa del Sitio](#331-mapa-del-sitio)
+      - [3.3.1 Mapa del Sitio](#331-mapa-del-sitio) (Actualizado)
    - [3.4 Plano de Esqueleto](#34-plano-de-esqueleto)
       - [3.4.1 Wireframes](#341-wireframes)
-   - [3.5 Plano de Superficie](#35-plano-de-superficie)
+   - [3.5 Plano de Superficie](#35-plano-de-superficie) (Actualizado)
       - [3.5.1 Mockups](#351-mockups)
       - [3.5.2 Explicación](#352-explicación)
-4. [Resultados Evaluación Heurística](#4-resultados-evaluación-heurística)
+4. [Resultados Evaluación Heurística](#4-resultados-evaluación-heurística) (Nuevo)
+   - [4.1 Problemas](#41-problemas)
+   - [4.2 Soluciones](#42-soluciones)
 5. [Referencias](#5-referencias)
 
 --- 
 ### 1. Introducción 
 
-##### 1.1 Problemática
+
+#### 1.1 Problemática
 
 En el mundo moderno, el proceso de pago de cuentas ha cambiado comparado con años anteriores, donde era necesario ir físicamente a los bancos, sin importar el tamaño del asunto.
 
-Actualmente, aprovechamos las ventajas que trae el mundo digitalizado, específicamente, la capacidad de poner en una sola aplicación todas las capacidades que hace unos años, sería necesario atender físicamente en un banco.
+Actualmente, aprovechamos las ventajas que trae el mundo digitalizado, específicamente la capacidad de poner en una sola aplicación todas las capacidades que, hace unos años, requerirían una visita física al banco.
 
-En este contexto, aún con estas nuevas facilidades, todavía hay personas que evitan estas soluciones, ya sea por dificultades con la tecnología o simplemente por tradición, algo totalmente normal considerando lo reciente que ha surgido esta nueva tecnología. Sea cual sea el caso, podemos reconocer el gran problema de la falta de soluciones enfocadas en este segmento de personas, los adultos mayores.
+En este contexto, aún con estas nuevas facilidades, todavía hay personas que evitan estas soluciones, ya sea por dificultades con la tecnología o simplemente por tradición, algo totalmente normal considerando lo reciente que ha surgido esta nueva tecnología. Sea cual sea el caso, podemos reconocer el gran problema de la falta de soluciones enfocadas en este segmento de personas: los adultos mayores.
 
-##### 1.2 Solución  
 
-Con nuestro proyecto, llamado 'CuentasYa' inspirado en el problema encontrado, buscamos construir una solución enfocada en nuestros ciudadanos de la tercera edad, una plataforma donde puedan centralizar todas sus cuentas y tarjetas, evitando la necesidad de viajar físicamente a los bancos.
+#### 1.2 Solución
 
-La plataforma será capaz de indicar dentro de la aplicación y con notificaciones y alarmas, todas las cuentas no pagadas. Además, la característica principal es el pago de cuentas, ya sea completamente digital o generando un ticket centralizado que puede ser usado en el banco.
+Con nuestro proyecto, llamado 'CuentasYa' e inspirado en el problema detectado, buscamos construir una solución enfocada en los ciudadanos de la tercera edad: una plataforma donde puedan centralizar todas sus cuentas y tarjetas, evitando la necesidad de trasladarse físicamente a los bancos.
 
-##### 1.3 Cambios 
+La plataforma será capaz de indicar, dentro de la app y con notificaciones y alarmas, todas las cuentas no pagadas. Además, la característica principal es el pago de cuentas, ya sea completamente digital o generando un ticket centralizado que puede ser usado en el banco.
+
+
+#### 1.3 Cambios
+
 En base a la retroalimentación dada por otros grupos, profesor y ayudantes, los cambios hechos en esta nueva versión del proyecto son:
-* Agregar soluciones a las observaciones dada por otros equipos después de la primera presentación.
-* Actualizar el [Mapa del Sitio](#331-mapa-del-sitio) con los flujos actuales de la aplicación.
-* Agregar [Mockups](./Documents/Mockups/Images/) finales.
-* Agregar una [Explicación de los Mockups](#351-explicacion-de-los-mockups), agrupandolos por funcionalidades para entender el flujo de la aplicación y cómo estos funcionan en conjunto.
-* Agregar [Resultados de la Evaluación Heurística](#4-resultados-evaluación-heurística) hecha por otro grupo, con una explicación de cómo estos fueron resueltos.
+* Se agregaron soluciones a las observaciones dadas por otros equipos después de la primera presentación.
+* Se actualizó el [Mapa del Sitio](#331-mapa-del-sitio) con todos los flujos actuales de la aplicación.
+* Se agregaron los [Mockups](./Documents/Mockups/Images/) finales.
+* Se agregó una [Explicación de los Mockups](#352-explicación), agrupándolos por funcionalidades para entender el flujo de la aplicación y cómo estos funcionan en conjunto.
+* Se agregaron los [Resultados de la Evaluación Heurística](#4-resultados-evaluación-heurística) hecha por otro grupo, con una explicación de cómo estos fueron resueltos.
 
 ---
 ### 2. Equipo y Roles
@@ -118,10 +124,11 @@ Materializado el **Canvas de Persona**, y definidas las funcionalidades del proy
 
 _"Los requisitos, sin embargo, no describen cómo las piezas encajan juntas para formar un todo cohesivo. Este es el siguiente nivel después del alcance: desarrollar una estructura conceptual para el sitio."_ (Garrett, 2011)
 
-###### 3.3.1 Mapa del Sitio 
-En el contexto de nuestra aplicación, utilizamos la herramienta conocida como Mapa del Sitio, para entender el flujo lógico del sistema a través de las funcionalidades que el sistema responderá a cada interacción del usuario.
 
-> Un mapa del sitio es un archivo que muestra la estructura de tu sitio web, incluyendo sus páginas y contenido. Y las relaciones entre ellas. (Pavlik, 2024)
+###### 3.3.1 Mapa del Sitio
+En el contexto de nuestra aplicación, utilizamos la herramienta conocida como Mapa del Sitio para entender el flujo lógico del sistema a través de las funcionalidades que el sistema responderá a cada interacción del usuario.
+
+> Un mapa del sitio es un archivo que muestra la estructura de tu sitio web, incluyendo sus páginas y contenido, y las relaciones entre ellas. (Pavlik, 2024)
 
 ![Sitemap](Documents/Sitemaps/Sitemap-ES.jpeg)
 
@@ -147,61 +154,65 @@ Para ver todos los wireframes, debido al alto número de imágenes, ir directame
 
 _"El plano de superficie es la parte más visible de la experiencia del usuario. Es lo que los usuarios ven e interactúan. El plano de superficie es donde entra en juego el diseño visual."_ (Garrett, 2011)
 
+
 ###### 3.5.1 Mockups
-Para ver todos las imagenes de los Mockups, debido al alto número de imágenes, ir directamente a la
-[carpeta con los wireframes Hi-Fi (Mockups)](Documents/Mockups) o al link hacia [figma](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
+Para ver todas las imágenes de los Mockups, debido al alto número de imágenes, ir directamente a la [carpeta con los wireframes Hi-Fi (Mockups)](Documents/Mockups) o al [link de Figma](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-  <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Wireframe 1" style="width: 75%; height: auto;">
-  <img src="./Documents/Mockups/Images/CuentasYA-23.png" alt="Wireframe 1" style="width: 22%; height: auto;">
-  <img src="./Documents/Mockups/Images/CuentasYA-32.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Mockup Estado Colores" style="width: 75%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-23.png" alt="Mockup 2" style="width: 22%; height: auto;">
+  <img src="./Documents/Mockups/Images/CuentasYA-32.png" alt="Mockup 3" style="width: 22%; height: auto;">
 </div>
+
 
 ###### 3.5.2 Explicación
-Si desea un explicación detallada de los Mockups agrupados por funcionalidades, ir al siguiente [Link](./Documents/Mockups/Explanation-ES/01.Registro-Inicio.md). 
+Si desea una explicación detallada de los Mockups agrupados por funcionalidades, ir al siguiente [link](./Documents/Mockups/Explanation-ES/01.Registro-Inicio.md), donde encontrará la explicación basada en el flujo de la aplicación.
 
 --- 
-### 4. Resultados Evaluación Heurística 
 
-Considerando la evaluación heurística hecha por otro grupo, el equipo de CuentasYA utilizó los problemas encontrados por el equipo externo para robustecer la aplicación.
+---
+### 4. Resultados Evaluación Heurística
 
-##### 4.1 Problemas 
-* En el dashboard principal, la sección de «Estado de Servicios» no es intuitiva, ya que los servicios sin pagar muestran valores, mientrás que los servicios ya pagados aparecen tachados, lo cual puede ser confuso.
-* La pantalla de resumen debería incluír un botón de pago, que permita a los usuarios pagar sus cuentas usando el saldo en su cuenta digital u otro método.
-* Interfaz de usuario confusa en la funcionalidad de Scan, porque la vista sugiere que la cuenta debe encajar exactamente, lo cual puede generar errores.
-* Es confuso como se agrega dinero a la billetera, ya que solo permite agregar tarjetas.
-* La interfaz de usuario no específica como las cuentas son mostradas.
+Considerando la evaluación heurística hecha por otro grupo, el equipo de CuentasYa utilizó los problemas encontrados por el equipo externo para robustecer la aplicación.
 
-##### 4.2 Solución 
+#### 4.1 Problemas
 
-* Ahora, los estados de los servicios en la esquina superior derecha y el color de los precios muestran un determinado color para cada estado:
-  * Rojo para cuentas sin pagar 
-  * Amarillo para cuentas pendientes 
-  * Verde para cuentas pagadas 
+* En el dashboard principal, la sección de «Estado de Servicios» no es intuitiva; los servicios sin pagar muestran valores, mientras que los servicios ya pagados aparecen tachados, lo cual puede ser confuso.
+* La pantalla de resumen debería incluir un botón de pago, que permita a los usuarios pagar sus cuentas usando el saldo en la billetera digital u otro método.
+* La interfaz de usuario de la funcionalidad de escaneo es confusa porque la vista sugiere que la cuenta debe encajar exactamente, lo cual puede generar errores.
+* Es confuso cómo se agrega dinero a la billetera, ya que solo permite agregar tarjetas.
+* La interfaz de usuario no especifica cómo se muestran las cuentas, generando confusión sobre si son cargos actuales o servicios previamente agregados.
+
+#### 4.2 Soluciones
+
+* Ahora, los estados de los servicios en la esquina superior derecha y el color del precio muestran un color específico para cada estado:
+  * Rojo para cuentas sin pagar
+  * Amarillo para cuentas pendientes
+  * Verde para cuentas pagadas
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-   <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Wireframe 1" style="width: 75%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-20.png" alt="Mockup Estado Colores" style="width: 75%; height: auto;">
 </div>
 
-* Ahora, la aplicación muestra la vista de resumen con un botón que lleva a la siguiente vista, donde el usuario puede seleccionar si desea pagar inmediatamente o hacerlo más tarde.
+* La aplicación ahora muestra la vista de resumen con un botón para proceder, donde la app pregunta al usuario si desea pagar inmediatamente o hacerlo más tarde.
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-   <img src="./Documents/Mockups/Images/CuentasYA-30.png" alt="Wireframe 1" style="width: 22%; height: auto;">
-   <img src="./Documents/Mockups/Images/CuentasYA-31.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-30.png" alt="Vista Resumen" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-31.png" alt="Opción de Pago" style="width: 22%; height: auto;">
 </div>
 
-* Ahora, el scan no muestra limitadores en la pantalla, aprovechando las capacidades de la IA para analizar la imagen.
+* La pantalla de escaneo ya no muestra limitadores, aprovechando las capacidades de IA para analizar la imagen.
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-   <img src="./Documents/Mockups/Images/CuentasYA-24.png" alt="Wireframe 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-24.png" alt="Pantalla de Escaneo" style="width: 22%; height: auto;">
 </div>
 
-* Ahora, en el dashboard principal hay un botón grande que permite al usuario agregar dinero a su billetera digital. Adicionalmente, la billetera digital tiene otra vista para agregar dinero. 
+* El dashboard principal ahora cuenta con un botón destacado que permite al usuario agregar dinero a la billetera digital. Además, la billetera digital tiene otra vista para agregar dinero.
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
-   <img src="./Documents/Mockups/Images/CuentasYA-10.png" alt="Wireframe 1" style="width: 22%; height: auto;">
-   <img src="./Documents/Mockups/Images/CuentasYA-11.png" alt="Wireframe 0" style="width: 22%; height: auto;">
-   <img src="./Documents/Mockups/Images/CuentasYA-12.png" alt="Wireframe 0" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-10.png" alt="Agregar Dinero 1" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-11.png" alt="Agregar Dinero 2" style="width: 22%; height: auto;">
+   <img src="./Documents/Mockups/Images/CuentasYA-12.png" alt="Agregar Dinero 3" style="width: 22%; height: auto;">
 </div>
 
 ---
@@ -212,6 +223,7 @@ Considerando la evaluación heurística hecha por otro grupo, el equipo de Cuent
 - American Society for Quality. (n.d.). Benchmarking. Recuperado de https://asq.org/quality-resources/benchmarking
 - Hayes, M., & Downie, A. (2024, 11 de octubre). Customer journey map. Recuperado de https://www.ibm.com/think/topics/customer-journey-map
 - Pavlik, V., Shirlow, C., & Mustapic, B. (2024). What Is a Sitemap? Website Sitemaps Explained. Semrush Blog. Recuperado de https://www.semrush.com/blog/website-sitemap
+
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, 25 de mayo). Recuperado de https://miro.com/wireframe/what-is-a-wireframe
-- Link Repositorio de Figma: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
+- Repositorio de Figma: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
 
