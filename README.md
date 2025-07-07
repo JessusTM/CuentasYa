@@ -187,7 +187,6 @@ Considering the heuristic evaluation made by another team, the 'CuentasYa' team 
 
 * Now, the states of the services in the upper right corner and the color of the price show a specific color for each state:
   * Red for unpaid bills
-  * Yellow for pending bills
   * Green for paid bills
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">

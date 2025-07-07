@@ -170,7 +170,6 @@ Si desea una explicación detallada de los Mockups agrupados por funcionalidades
 
 --- 
 
----
 ### 4. Resultados Evaluación Heurística
 
 Considerando la evaluación heurística hecha por otro grupo, el equipo de CuentasYa utilizó los problemas encontrados por el equipo externo para robustecer la aplicación.
@@ -187,7 +186,6 @@ Considerando la evaluación heurística hecha por otro grupo, el equipo de Cuent
 
 * Ahora, los estados de los servicios en la esquina superior derecha y el color del precio muestran un color específico para cada estado:
   * Rojo para cuentas sin pagar
-  * Amarillo para cuentas pendientes
   * Verde para cuentas pagadas
 
 <div style="display: flex; gap: 10px; justify-content: center; align-items: center; flex-wrap: wrap;">
