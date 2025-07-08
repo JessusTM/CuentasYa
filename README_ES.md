@@ -32,7 +32,8 @@ Este repositorio contiene todo el proceso de experiencia de usuario detrás de l
 4. [Resultados Evaluación Heurística](#4-resultados-evaluación-heurística) (Nuevo)
    - [4.1 Problemas](#41-problemas)
    - [4.2 Soluciones](#42-soluciones)
-5. [Referencias](#5-referencias)
+5. [Temáticas de Accesibilidad](#5-temáticas-de-accesibilidad) (Nuevo)
+6. [Referencias](#6-referencias)
 
 --- 
 ### 1. Introducción 
@@ -214,7 +215,23 @@ Considerando la evaluación heurística hecha por otro grupo, el equipo de Cuent
 </div>
 
 ---
-### 5. Referencias
+
+### 5. Temáticas de Accesibilidad
+
+En el desarrollo de CuentasYa se consideraron los siguientes aspectos de accesibilidad (Quesenbery, S. H. &. W, 2024), en base a los talleres y buenas prácticas de UX:
+
+- **Contraste de colores y legibilidad:** Se utilizaron colores con alto contraste y una paleta accesible para personas con baja visión o daltonismo. Los textos y botones importantes cumplen con los estándares de UX.
+- **Tamaño y claridad de los elementos interactivos:** Los botones y áreas táctiles son grandes y fácilmente identificables, facilitando su uso a personas con movilidad reducida o dificultades motrices.
+- **Tipografía y jerarquía visual:** Se emplearon fuentes legibles y tamaños adecuados para adultos mayores, priorizando la claridad y la jerarquía visual.
+- **Iconografía y apoyo visual:** Se usaron íconos claros y universales junto a los textos, y se consideraron textos alternativos para usuarios de lectores de pantalla.
+- **Feedback y confirmaciones:** La aplicación proporciona retroalimentación visual clara (colores, mensajes, estados) ante acciones importantes, e incluye mensajes de confirmación y alertas para evitar errores.
+- **Lenguaje claro y simple:** Se priorizó el uso de un lenguaje sencillo, directo y sin tecnicismos, facilitando la comprensión para adultos mayores y personas con menor alfabetización digital.
+
+Para ver estos cambios en más detallade, consulta los mockups disponibles en [la carpeta de wireframes Hi-Fi (Mockups)](Documents/Mockups) o accede directamente al [proyecto en Figma](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
+
+---
+
+### 6. Referencias
 
 - Garrett, J. J. (2011). The Elements of User Experience: User-Centered Design for the Web and Beyond. New Riders.
 - B2B International. (2025). Value Proposition Canvas. Recuperado de https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/
@@ -223,5 +240,7 @@ Considerando la evaluación heurística hecha por otro grupo, el equipo de Cuent
 - Pavlik, V., Shirlow, C., & Mustapic, B. (2024). What Is a Sitemap? Website Sitemaps Explained. Semrush Blog. Recuperado de https://www.semrush.com/blog/website-sitemap
 
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, 25 de mayo). Recuperado de https://miro.com/wireframe/what-is-a-wireframe
+
+- Quesenbery, S. H. &. W. (2024). Principles for Accessibility. Design Principles. Recuperado de https://principles.design/examples/principles-for-accessibility
 - Repositorio de Figma: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
 
