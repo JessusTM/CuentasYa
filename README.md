@@ -217,16 +217,19 @@ Considering the heuristic evaluation made by another team, the 'CuentasYa' team 
 
 ---
 
+
 ### 5. Accessibility Topics
 
 In the development of CuentasYa, the following accessibility aspects were considered (Quesenbery, S. H. & W, 2024), based on class workshops and UX best practices:
 
-- **Color contrast and readability:** High-contrast colors and an accessible palette were used for people with low vision or color blindness. Important texts and buttons comply with UX standards.
+- **Color contrast and readability:** High-contrast colors and an accessible palette were used for people with low vision or color blindness. Important texts and buttons comply with accessibility standards (WCAG AA).
 - **Size and clarity of interactive elements:** Buttons and touch areas are large and easily identifiable, making them easier to use for people with reduced mobility or motor difficulties.
 - **Typography and visual hierarchy:** Legible fonts and appropriate sizes for older adults were used, prioritizing clarity and visual hierarchy.
 - **Iconography and visual support:** Clear and universal icons were used alongside texts, and alternative texts were considered for screen reader users.
 - **Feedback and confirmations:** The application provides clear visual feedback (colors, messages, states) for important actions, including confirmation messages and alerts to prevent errors.
+- **Compatibility with assistive technologies:** The design considers keyboard navigation and screen reader compatibility, ensuring all interactive elements are accessible via tabbing and have proper descriptions.
 - **Clear and simple language:** Simple, direct, and jargon-free language was prioritized, making it easier to understand for older adults and people with lower digital literacy.
+- **Testing and validation:** Accessibility reviews were conducted during the mockup design, using checklists and simulating scenarios for users with different disabilities.
 
 To see these changes in more detail, check the mockups available in the [Hi-Fi Wireframes (Mockups) folder](Documents/Mockups) or access the [Figma project](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
 
@@ -241,4 +244,7 @@ To see these changes in more detail, check the mockups available in the [Hi-Fi W
 - Pavlik, V., Shirlow, C., & Mustapic, B. (2024). What Is a Sitemap? Website Sitemaps Explained. Semrush Blog. Retrieved from https://www.semrush.com/blog/website-sitemap
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, May 25). Retrieved from https://miro.com/wireframe/what-is-a-wireframe
 - Quesenbery, S. H. & W. (2024). Principles for Accessibility. Design Principles. Retrieved from https://principles.design/examples/principles-for-accessibility
-- Figma repository: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
+
+- CuentasYa project repository on Figma: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
+
+- CuentasYa prototype on Figma: https://www.figma.com/proto/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=990-2174&p=f&t=jMLITqVfPm8fw7jA-0&scaling=scale-down&content-scaling=fixed&page-id=178%3A308&starting-point-node-id=990%3A2174&show-proto-sidebar=1

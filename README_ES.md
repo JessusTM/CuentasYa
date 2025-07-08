@@ -242,5 +242,8 @@ Para ver estos cambios en más detallade, consulta los mockups disponibles en [l
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, 25 de mayo). Recuperado de https://miro.com/wireframe/what-is-a-wireframe
 
 - Quesenbery, S. H. &. W. (2024). Principles for Accessibility. Design Principles. Recuperado de https://principles.design/examples/principles-for-accessibility
-- Repositorio de Figma: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
+
+- Repositorio del proyecto CuentasYa en Figma: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
+
+- Prototipo CuentasYa en Figma: https://www.figma.com/proto/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=990-2174&p=f&t=jMLITqVfPm8fw7jA-0&scaling=scale-down&content-scaling=fixed&page-id=178%3A308&starting-point-node-id=990%3A2174&show-proto-sidebar=1
 
