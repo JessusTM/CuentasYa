@@ -217,8 +217,6 @@ Considering the heuristic evaluation made by another team, the 'CuentasYa' team 
 
 ---
 
----
-
 ### 5. Accessibility Topics
 
 In the development of CuentasYa, the following accessibility aspects were considered (Quesenbery, S. H. & W, 2024), based on class workshops and UX best practices:
