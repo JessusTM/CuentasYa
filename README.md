@@ -31,7 +31,8 @@ This repository contains the entire user experience process behind the app 'Cuen
 4. [Heuristic Evaluation Results](#4-heuristic-evaluation-results) (New)
    - [4.1 Problems](#41-problems)
    - [4.2 Solutions](#42-solutions)
-5. [References](#5-references)
+5. [Accessibility Topics](#5-accessibility-topics) (New)
+6. [References](#6-references)
 
 ---
 ### 1. Introduction
@@ -215,7 +216,25 @@ Considering the heuristic evaluation made by another team, the 'CuentasYa' team 
 </div>
 
 ---
-### 5. References
+
+---
+
+### 5. Accessibility Topics
+
+In the development of CuentasYa, the following accessibility aspects were considered (Quesenbery, S. H. & W, 2024), based on class workshops and UX best practices:
+
+- **Color contrast and readability:** High-contrast colors and an accessible palette were used for people with low vision or color blindness. Important texts and buttons comply with UX standards.
+- **Size and clarity of interactive elements:** Buttons and touch areas are large and easily identifiable, making them easier to use for people with reduced mobility or motor difficulties.
+- **Typography and visual hierarchy:** Legible fonts and appropriate sizes for older adults were used, prioritizing clarity and visual hierarchy.
+- **Iconography and visual support:** Clear and universal icons were used alongside texts, and alternative texts were considered for screen reader users.
+- **Feedback and confirmations:** The application provides clear visual feedback (colors, messages, states) for important actions, including confirmation messages and alerts to prevent errors.
+- **Clear and simple language:** Simple, direct, and jargon-free language was prioritized, making it easier to understand for older adults and people with lower digital literacy.
+
+To see these changes in more detail, check the mockups available in the [Hi-Fi Wireframes (Mockups) folder](Documents/Mockups) or access the [Figma project](https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1).
+
+---
+
+### 6. References
 
 - Garrett, J. J. (2011). The Elements of User Experience: User-Centered Design for the Web and Beyond. New Riders.
 - B2B International. (2025). Value Proposition Canvas. Retrieved from https://www.b2binternational.com/research/methods/faq/what-is-the-value-proposition-canvas/
@@ -223,4 +242,5 @@ Considering the heuristic evaluation made by another team, the 'CuentasYa' team 
 - Hayes, M., & Downie, A. (2024, October 11). Customer journey map. Retrieved from https://www.ibm.com/think/topics/customer-journey-map
 - Pavlik, V., Shirlow, C., & Mustapic, B. (2024). What Is a Sitemap? Website Sitemaps Explained. Semrush Blog. Retrieved from https://www.semrush.com/blog/website-sitemap
 - What is a Wireframe & its Role in the Design Process | Miro. (2025, May 25). Retrieved from https://miro.com/wireframe/what-is-a-wireframe
-- Figma repository: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-
+- Quesenbery, S. H. & W. (2024). Principles for Accessibility. Design Principles. Retrieved from https://principles.design/examples/principles-for-accessibility
+- Figma repository: https://www.figma.com/design/TZPs4cJEpcQoUkov2iKeuV/Cuentas-YA?node-id=178-308&t=HpcX7A2NsWgQR3cF-1
